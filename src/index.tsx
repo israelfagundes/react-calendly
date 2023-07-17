@@ -7,6 +7,8 @@ import type {
   DateAndTimeSelectedEvent,
   EventScheduledEvent,
   EventTypeViewedEvent,
+  EventRescheduledEvent,
+  EventCanceledEvent,
   ProfilePageViewedEvent,
 } from "./components/hooks/useCalendlyEventListener";
 
@@ -19,5 +21,7 @@ export {
   DateAndTimeSelectedEvent,
   EventScheduledEvent,
   EventTypeViewedEvent,
+  EventRescheduledEvent,
+  EventCanceledEvent,
   ProfilePageViewedEvent,
 };

@@ -31,6 +31,8 @@ export enum CalendlyEvent {
   EVENT_TYPE_VIEWED = "calendly.event_type_viewed",
   DATE_AND_TIME_SELECTED = "calendly.date_and_time_selected",
   EVENT_SCHEDULED = "calendly.event_scheduled",
+  EVENT_RESCHEDULED = "calendly.event_rescheduled",
+  EVENT_CANCELED = "calendly.event_canceled",
 }
 
 export type Utm = Optional<{
