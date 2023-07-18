@@ -27,8 +27,11 @@
     "predeploy": "npm install && npm run build-storybook",
     "deploy": "gh-pages -d storybook-static",
     "storybook": "start-storybook -p 9001 -c .storybook ",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
   },
+  "precommit": [
+    "build"
+  ],
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
